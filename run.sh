@@ -1,4 +1,7 @@
-# No Windows
+# On Windows
+# install virtualenv
+pip install virtualenv
+
 # create virtualenv
 python -m venv venv
 
@@ -10,3 +13,6 @@ deactivate
 
 # Start app
 python app.py
+
+# install Flask
+pip install Flask
